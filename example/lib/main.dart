@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:stripe_payment/stripe_payment.dart';
+import 'package:stripe_payment_flutter/stripe_payment_flutter.dart';
 import 'dart:io';
 
 void main() {

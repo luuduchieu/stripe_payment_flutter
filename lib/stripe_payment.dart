@@ -6,5 +6,5 @@ export 'src/payment_intent.dart';
 export 'src/payment_method.dart';
 export 'src/source.dart';
 export 'src/source_params.dart';
-export 'src/stripe_payment.dart';
+export 'src/stripe_payment_flutter.dart';
 export 'src/token.dart';

@@ -18,7 +18,7 @@
 
 ## [1.0.0]
 
-the stripe_payment plugin is now ported from tipsi-stripe React Native plugin: 
+the stripe_payment_flutter plugin is now ported from tipsi-stripe React Native plugin: 
 https://github.com/tipsi/tipsi-stripe
 New features include:
 ### Native Pay -  & G
@@ -84,7 +84,7 @@ Added support for:
 
 ## [0.0.8] - 08.12.2018
 
-* Fix crash on iOS for newer Flutter beta (fixes https://github.com/jonasbark/flutter_stripe_payment/issues/12) 
+* Fix crash on iOS for newer Flutter beta (fixes https://github.com/jonasbark/stripe_payment_flutter/issues/12) 
 
 ## [0.0.7] - 03.12.2018
 

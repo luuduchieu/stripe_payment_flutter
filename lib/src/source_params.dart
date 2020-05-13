@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stripe_payment/src/token.dart';
+import 'package:stripe_payment_flutter/src/token.dart';
 
 class SourceParams {
   int amount;

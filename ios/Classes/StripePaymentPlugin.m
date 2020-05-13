@@ -8,7 +8,7 @@
 }
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     
-    FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"stripe_payment" binaryMessenger:[registrar messenger]];
+    FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"stripe_payment_flutter" binaryMessenger:[registrar messenger]];
     
     StripePaymentPlugin* instance = [[StripePaymentPlugin alloc] init];
     [registrar addMethodCallDelegate:instance channel:channel];
