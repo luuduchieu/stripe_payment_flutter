@@ -8,7 +8,7 @@ import android.os.AsyncTask;
 import android.text.TextUtils;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.facebook.react.bridge.*;
+import com.facebook.react_temp.bridge.*;
 import com.gettipsi.stripe.util.ArgCheck;
 import com.gettipsi.stripe.util.Converters;
 import com.gettipsi.stripe.util.Fun0;

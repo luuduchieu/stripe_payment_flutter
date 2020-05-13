@@ -1,4 +1,4 @@
-package com.facebook.react.bridge;
+package com.facebook.react_temp.bridge;
 
 import io.flutter.plugin.common.MethodChannel;
 

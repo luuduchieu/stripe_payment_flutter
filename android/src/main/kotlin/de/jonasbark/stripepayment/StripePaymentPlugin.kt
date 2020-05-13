@@ -1,7 +1,7 @@
 package de.jonasbark.stripepayment
 
-import com.facebook.react.bridge.Promise
-import com.facebook.react.bridge.ReadableMap
+import com.facebook.react_temp.bridge.Promise
+import com.facebook.react_temp.bridge.ReadableMap
 import com.gettipsi.stripe.StripeModule
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
