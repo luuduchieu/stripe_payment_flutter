@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stripe_payment/src/payment_method.dart';
+import 'package:stripe_payment_flutter/src/payment_method.dart';
 
 class PaymentIntent {
   PaymentMethodRequest paymentMethod;

@@ -1,4 +1,4 @@
-import 'package:stripe_payment/src/token.dart';
+import 'package:stripe_payment_flutter/src/token.dart';
 
 import 'card_form_payment_request.dart';
 

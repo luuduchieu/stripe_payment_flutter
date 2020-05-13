@@ -1,5 +1,5 @@
 name: stripe_payment_example
-description: Demonstrates how to use the stripe_payment plugin.
+description: Demonstrates how to use the stripe_payment_flutter plugin.
 
 dependencies:
   flutter:
@@ -12,7 +12,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  stripe_payment:
+  stripe_payment_flutter:
     path: ../
 
 # For information on the generic Dart part of this file, see the

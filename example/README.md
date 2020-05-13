@@ -1,6 +1,6 @@
 # stripe_payment_example
 
-Demonstrates how to use the stripe_payment plugin.
+Demonstrates how to use the stripe_payment_flutter plugin.
 
 ## Getting Started
 

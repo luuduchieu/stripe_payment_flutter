@@ -1,4 +1,4 @@
-import 'package:stripe_payment/src/card_form_payment_request.dart';
+import 'package:stripe_payment_flutter/src/card_form_payment_request.dart';
 
 class Source {
   String object;

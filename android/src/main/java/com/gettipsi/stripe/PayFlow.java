@@ -5,8 +5,8 @@ import android.content.Intent;
 import androidx.annotation.NonNull;
 import android.util.Log;
 
-import com.facebook.react.bridge.Promise;
-import com.facebook.react.bridge.ReadableMap;
+import com.facebook.react_temp.bridge.Promise;
+import com.facebook.react_temp.bridge.ReadableMap;
 import com.gettipsi.stripe.util.ArgCheck;
 import com.gettipsi.stripe.util.Fun0;
 import com.google.android.gms.common.ConnectionResult;

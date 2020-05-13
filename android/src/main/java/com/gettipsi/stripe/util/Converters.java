@@ -4,12 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.text.TextUtils;
 
-import com.facebook.react.bridge.Arguments;
-import com.facebook.react.bridge.ReadableArray;
-import com.facebook.react.bridge.ReadableMap;
-import com.facebook.react.bridge.WritableMap;
-import com.facebook.react.bridge.WritableNativeArray;
-import com.facebook.react.bridge.WritableNativeMap;
+import com.facebook.react_temp.bridge.Arguments;
+import com.facebook.react_temp.bridge.ReadableArray;
+import com.facebook.react_temp.bridge.ReadableMap;
+import com.facebook.react_temp.bridge.WritableMap;
+import com.facebook.react_temp.bridge.WritableNativeArray;
+import com.facebook.react_temp.bridge.WritableNativeMap;
 import com.google.android.gms.identity.intents.model.CountrySpecification;
 import com.google.android.gms.identity.intents.model.UserAddress;
 import com.google.android.gms.wallet.PaymentData;

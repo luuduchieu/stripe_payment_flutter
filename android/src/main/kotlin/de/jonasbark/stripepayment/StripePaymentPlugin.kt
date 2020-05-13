@@ -1,7 +1,7 @@
 package de.jonasbark.stripepayment
 
-import com.facebook.react.bridge.Promise
-import com.facebook.react.bridge.ReadableMap
+import com.facebook.react_temp.bridge.Promise
+import com.facebook.react_temp.bridge.ReadableMap
 import com.gettipsi.stripe.StripeModule
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
@@ -69,7 +69,7 @@ class StripePaymentPlugin(private val stripeModule: StripeModule) : MethodCallHa
 
         @JvmStatic
         fun registerWith(registrar: Registrar) {
-            val channel = MethodChannel(registrar.messenger(), "stripe_payment")
+            val channel = MethodChannel(registrar.messenger(), "stripe_payment_flutter")
             val stripeModule = StripeModule(registrar, registrar.activity())
             val plugin = StripePaymentPlugin(stripeModule)
             channel.setMethodCallHandler(plugin)

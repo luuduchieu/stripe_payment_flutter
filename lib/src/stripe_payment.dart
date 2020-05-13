@@ -15,7 +15,7 @@ import 'source_params.dart';
 import 'token.dart';
 
 class StripePayment {
-  static const MethodChannel _channel = const MethodChannel('stripe_payment');
+  static const MethodChannel _channel = const MethodChannel('stripe_payment_flutter');
 
   /// https://tipsi.github.io/tipsi-stripe/docs/usage.html
   static void setOptions(StripeOptions settings) {
