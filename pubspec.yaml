@@ -1,10 +1,15 @@
 name: stripe_payment_flutter
 description: A Flutter plugin to integrate the stripe libraries for iOS and Android. Supports Apple / Google Pay, SCA, PSD2 and much more.
-version: 1.0.9
+version: 1.1.0
 homepage: https://github.com/luuduchieu/stripe_payment_flutter
+authors:
+- Jonas Bark <jonas.bark@gmx.de>
+- John Blanchard <jnblanchard@mac.com>
+- Harry Luu <luuduchieuharry@gmail.com>
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
+  flutter: ">=1.12.0 <2.0.0"
 
 dependencies:
   flutter:
@@ -16,5 +21,9 @@ dependencies:
 # The following section is specific to Flutter.
 flutter:
   plugin:
-    androidPackage: de.jonasbark.stripepayment
-    pluginClass: StripePaymentPlugin
+    platforms:
+      android:
+        package: de.jonasbark.stripepayment
+        pluginClass: StripePaymentPlugin
+      ios:
+        pluginClass: StripePaymentPlugin
