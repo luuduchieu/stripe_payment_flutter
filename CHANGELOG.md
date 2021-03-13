@@ -1,3 +1,9 @@
+## [1.0.10]
+- update sdk signature information (by @davidme-stripe)
+
+## [1.0.9]
+- fix issues with Stripe iOS dependency
+
 ## [1.0.8]
 - fix errors with shippingMethod for Apple Play (thanks @andhieka)
 - preserve card name on iOS (thanks @brauliolomeli)
