@@ -59,5 +59,7 @@ It includes:
 - how to setup Google / Apple Pay
 - method documentations
 
+## React Native version conflict
+- This package is an alternative version for developers that have conflict with react native package
 ## Blog Posts
 - [Build a marketplace in your Flutter app and accept payments using Stripe and Firebase](https://medium.com/flutter-community/build-a-marketplace-in-your-flutter-app-and-accept-payments-using-stripe-and-firebase-72f3f7228625)
